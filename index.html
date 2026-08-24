@@ -58,11 +58,20 @@
     }
 
     .logo {
-      font-size: 25px;
-      font-weight: bold;
-      color: white;
-      text-decoration: none;
-    }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
 
     .nav-links a {
       color: white;
@@ -323,7 +332,10 @@
 
   <div class="nav-container">
 
-    <a class="logo" href="#home">G-HyQ</a>
+    <a class="logo" href="#home">
+  <img src="ghyq-logo.jpg" alt="G-HyQ Logo">
+  <span>G-HyQ</span>
+</a>
 
     <div class="nav-links">
 
